@@ -1,0 +1,84 @@
+@import './base.css';
+
+.parent {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #181a1b;
+}
+
+.searchInput {
+  width: 30%;
+  display: flex;
+}
+
+.searchInput select {
+  width: 30%;
+  margin-left: 10px;
+}
+
+.search {
+  width: 70%;
+  height: 7vh;
+  border: 1px solid #111;
+  border-radius: 8px;
+  border-color: #a5a5a5;
+  padding-left: 10px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+}
+
+.textsearch {
+  margin-top: 1rem;
+  font-size: 18px;
+  color: white;
+}
+
+
+.filters {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.btnfilters {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemons {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pokemonimg {
+  width: 60%;
+  height: 12vh;
+  padding: 20px;
+  background-color: #2d3133;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.pokemon {
+  width: 200px;
+  height: 200px;
+  color: white;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
